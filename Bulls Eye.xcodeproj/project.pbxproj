@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20BAFA62154B84E00195C36 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = F20BAFA52154B84E00195C36 /* BullsEye.html */; };
 		F2E3CC252154747300C971D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3CC242154747300C971D2 /* AppDelegate.swift */; };
 		F2E3CC272154747300C971D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3CC262154747300C971D2 /* ViewController.swift */; };
 		F2E3CC2A2154747300C971D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E3CC282154747300C971D2 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		F2E3CC2F2154747300C971D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E3CC2D2154747300C971D2 /* LaunchScreen.storyboard */; };
 		F2E3CC3A2154747300C971D2 /* Bulls_EyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3CC392154747300C971D2 /* Bulls_EyeTests.swift */; };
 		F2E3CC452154747300C971D2 /* Bulls_EyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3CC442154747300C971D2 /* Bulls_EyeUITests.swift */; };
+		F2E3CC532154AC1400C971D2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3CC522154AC1400C971D2 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20BAFA52154B84E00195C36 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = Assets.xcassets/Resources/BullsEye.dataset/BullsEye.html; sourceTree = "<group>"; };
 		F2E3CC212154747300C971D2 /* Bulls Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bulls Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E3CC242154747300C971D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2E3CC262154747300C971D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		F2E3CC402154747300C971D2 /* Bulls EyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bulls EyeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E3CC442154747300C971D2 /* Bulls_EyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulls_EyeUITests.swift; sourceTree = "<group>"; };
 		F2E3CC462154747300C971D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E3CC522154AC1400C971D2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		F2E3CC232154747300C971D2 /* Bulls Eye */ = {
 			isa = PBXGroup;
 			children = (
+				F20BAFA52154B84E00195C36 /* BullsEye.html */,
 				F2E3CC242154747300C971D2 /* AppDelegate.swift */,
 				F2E3CC262154747300C971D2 /* ViewController.swift */,
+				F2E3CC522154AC1400C971D2 /* AboutViewController.swift */,
 				F2E3CC282154747300C971D2 /* Main.storyboard */,
 				F2E3CC2B2154747300C971D2 /* Assets.xcassets */,
 				F2E3CC2D2154747300C971D2 /* LaunchScreen.storyboard */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E3CC2F2154747300C971D2 /* LaunchScreen.storyboard in Resources */,
+				F20BAFA62154B84E00195C36 /* BullsEye.html in Resources */,
 				F2E3CC2C2154747300C971D2 /* Assets.xcassets in Resources */,
 				F2E3CC2A2154747300C971D2 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E3CC532154AC1400C971D2 /* AboutViewController.swift in Sources */,
 				F2E3CC272154747300C971D2 /* ViewController.swift in Sources */,
 				F2E3CC252154747300C971D2 /* AppDelegate.swift in Sources */,
 			);
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6934F2NDP9;
 				INFOPLIST_FILE = "Bulls Eye/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "host.gear.milincjoshi.Bulls-Eye";
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6934F2NDP9;
 				INFOPLIST_FILE = "Bulls Eye/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "host.gear.milincjoshi.Bulls-Eye";
